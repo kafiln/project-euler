@@ -15,7 +15,7 @@ A leap year occurs on any year evenly divisible by 4, but not on a century unles
 ## Question
 How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
 
-## Solutions
+## Solution
 
 ```csharp
 class P19
