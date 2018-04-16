@@ -6,6 +6,7 @@ Feel free to contribute and happy browsing :)
 
 
 # Solutions
+## 1-50
 
 ### [#1](https://github.com/Kafiil/project-euler/tree/master/problems/1)
 ### [#19](https://github.com/Kafiil/project-euler/tree/master/problems/19)
@@ -13,3 +14,7 @@ Feel free to contribute and happy browsing :)
 ### [#22](https://github.com/Kafiil/project-euler/tree/master/problems/22)
 ### [#26](https://github.com/Kafiil/project-euler/tree/master/problems/26)
 ### [#36](https://github.com/Kafiil/project-euler/tree/master/problems/36)
+
+
+## 51-100
+### [#52](https://github.com/Kafiil/project-euler/tree/master/problems/52)
