@@ -42,5 +42,4 @@ public class P36 {
 ```
 
 ### Answer
-
-`result = 872187`
+`872187`

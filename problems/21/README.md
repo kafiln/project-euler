@@ -47,4 +47,4 @@ class P21
 ```
 
 ## Answer
-`result = 31626`
+`31626`

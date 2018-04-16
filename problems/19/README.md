@@ -45,4 +45,4 @@ class P19
 ```
 
 ## Answer
-`result = 171`
+`171`
