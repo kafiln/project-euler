@@ -1,0 +1,34 @@
+# Problem 10
+
+## Summation of primes
+
+The sum of the primes below `10` is `2 + 3 + 5 + 7 = 17`.
+
+
+## Question
+
+Find the sum of all the primes below `two million`.
+
+### Solution
+
+```javascript
+const lib = require('../../../utils/lib.js');
+
+summationOfPrimes = number => {
+    let result = 0;
+    let i = 2;
+    while (i < number) {
+        if (lib.isPrime(i)) result += i;
+        i++;
+    }
+    return result;
+
+}
+
+// console.log(summationOfPrimes(10))
+console.log(summationOfPrimes(2000000))
+
+```
+
+### Answer
+`summationOfPrimes(2000000)=142913828922`
