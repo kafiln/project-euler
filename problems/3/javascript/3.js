@@ -1,21 +1,4 @@
-// TODO : Add to a math lib to use everywhene
-isPrime = number => {
-    for (let i = 1; i < Math.sqrt(number); i++) {
-        if ((number % i) == 0) return false;
-    }
-    return true;
-}
-
-// TODO : Add to a math lib to use everywhene
-dividors = number => {
-    let result = [1];
-    for (let i = 2; i <= number; i++) {
-        if ((number % i) == 0) result.push(i);
-    }
-    return result;
-}
-
-// TODO : Add to a math lib to use everywhene
+// TODO : Add to a math lib for reuse
 primeFactors = remainder => {
     var factors = [], i;
 
@@ -28,8 +11,8 @@ primeFactors = remainder => {
 
     return factors;
 }
+largestPrimeFactor = number => primeFactors(number)
+    .reduce((a, b) => Math.max(a, b), 0);
 
-main = () => primeFactors(600851475143).reduce((a, b) => Math.max(a, b), 0);
 
-
-console.log(main());
+console.log(largestPrimeFactor(600851475143));

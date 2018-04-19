@@ -23,8 +23,13 @@ primeFactors = remainder => {
     return factors;
 }
 
-main = () => primeFactors(600851475143).reduce((a, b) => Math.max(a, b), 0);
+
+largestPrimeFactor = number => primeFactors(number)
+    .reduce((a, b) => Math.max(a, b), 0);
+
+
+console.log(largestPrimeFactor(600851475143));
 ```
 
 ### Answer
-`6857`
+`largestPrimeFactor(600851475143) = 6857`
