@@ -31,4 +31,4 @@ main = () => fibannaciNumbers(4000000).filter(i => i % 2 == 0).reduce((a, b) => 
 ```
 
 ### Answer
-`4613732git`
+`4613732`
