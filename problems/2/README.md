@@ -27,8 +27,10 @@ fibannaciNumbers = limit => {
     return result;
 }
 
-main = () => fibannaciNumbers(4000000).filter(i => i % 2 == 0).reduce((a, b) => a + b, 0);
+main = (limit) => fibannaciNumbers(limit).filter(i => i % 2 == 0).reduce((a, b) => a + b, 0);
 ```
 
 ### Answer
-`4613732`
+```javascript
+main(4000000) = 4613732
+```

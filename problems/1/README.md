@@ -18,4 +18,6 @@ sumOfDividors = limit => {
 ```
 
 ### Answer
-`233168`
+```javascript
+sumOfDividors(1000) = 233168
+```
