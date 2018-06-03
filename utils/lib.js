@@ -15,7 +15,7 @@ module.exports = class lib {
         return i;
     }
 
-    // returns an array containing all the dividors of a given number
+    // returns an array containing all the positive dividors of a given number
     static dividors(number) {
         let result = [1];
         for (let i = 2; i <= number; i++) {
