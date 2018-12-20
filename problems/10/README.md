@@ -12,13 +12,13 @@ Find the sum of all the primes below `two million`.
 ### Solution
 
 ```javascript
-const lib = require('../../../utils/lib.js');
+const isPrime = require('../../../utils/lib.js').isPrime;
 
 summationOfPrimes = number => {
     let result = 0;
     let i = 2;
     while (i < number) {
-        if (lib.isPrime(i)) result += i;
+        if (isPrime(i)) result += i;
         i++;
     }
     return result;
